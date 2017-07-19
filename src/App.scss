@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+/*
+.App-header {
+  background-color: #222;
+  height: 650px;
+  padding: 20px;
+  color: white;
+}
+*/
+
+.App-header {
+  background-image: url(berlin_street.jpg);
+  height: 350px;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-circle {
+  margin-top: -140px;
+  max-height: 300px;
+  max-width: 300px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1)
+}
+
+.img-circle:before {
+  content: 'BEFORE';
+  position: absolute;
+  color: red;
+}
