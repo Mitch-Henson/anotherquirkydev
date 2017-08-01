@@ -4,7 +4,6 @@
 }
 
 .App-header {
-  background-image: url(images/blurry_tram.jpg);
   height: 350px;
   padding: 20px;
   background-size: cover;
@@ -21,8 +20,30 @@
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.img-circle:before {
-  content: 'BEFORE';
-  position: absolute;
-  color: red;
+/* mobile */
+@media (max-width: 480px) {
+  .App-header {
+    background-image: url(images/blurry_tram.jpg);
+  }
+}
+
+/* tablet */
+@media (min-width: 418px) and (max-width: 768px) {
+  .App-header {
+    background-image: url(images/blurry_tram.jpg);
+  }
+}
+
+/* desktop */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .App-header {
+    background-image: url(images/blurry_tram.jpg);
+  }
+}
+
+/* large desktop */
+@media (min-width: 1025px) {
+  .App-header {
+    background-image: url(images/blurry_tram.jpg);
+  }
 }
