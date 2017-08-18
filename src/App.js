@@ -10,8 +10,8 @@ class App extends Component {
         <div className='App-header'/>
         <div className='App-Body'>
           <img className='img-circle' src={mitch} alt='Picture of Mitchell Henson'/>
-          <h3>Mitchell Henson</h3>
-          <p>Australian developer based in Berlin</p>
+          <h2>Mitchell Henson</h2>
+          <p>Developer - Gamer - Aussie</p>
           <a href='https://github.com/Mitch-Henson/'>
             <img src={github} alt='Github'/>
           </a>

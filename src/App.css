@@ -1,10 +1,10 @@
 .App {
   text-align: center;
   min-width: 320px;
+  padding-bottom: 25px;
 }
 
 .App-header {
-  height: 350px;
   padding: 20px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,9 +12,6 @@
 }
 
 .img-circle {
-  margin-top: -140px;
-  max-height: 300px;
-  max-width: 300px;
   border: 3px solid #fff;
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -23,27 +20,54 @@
 /* mobile */
 @media (max-width: 480px) {
   .App-header {
+    height: 200px;
     background-image: url(images/blurry_tram.jpg);
+  }
+  .img-circle {
+    margin-top: -100px;
+    max-height: 200px;
+    max-width: 200px;
   }
 }
 
 /* tablet */
 @media (min-width: 418px) and (max-width: 768px) {
   .App-header {
+    height: 200px;
     background-image: url(images/blurry_tram.jpg);
+  }
+
+  .img-circle {
+    margin-top: -100px;
+    max-height: 250px;
+    max-width: 250px;
   }
 }
 
 /* desktop */
 @media (min-width: 769px) and (max-width: 1024px) {
   .App-header {
+    height: 200px;
     background-image: url(images/blurry_tram.jpg);
+  }
+
+  .img-circle {
+    margin-top: -140px;
+    max-height: 300px;
+    max-width: 300px;
   }
 }
 
 /* large desktop */
 @media (min-width: 1025px) {
   .App-header {
+    height: 300px;
     background-image: url(images/blurry_tram.jpg);
+  }
+
+  .img-circle {
+    margin-top: -140px;
+    max-height: 300px;
+    max-width: 300px;
   }
 }
