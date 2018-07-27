@@ -1,10 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# gatsby-starter-default
+The default Gatsby starter.
 
-## Docker commands to know to run this project
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-Building the image:  
-Dev - `docker build -t anotherquirkydev_web . -f Dockerfile-dev`  
-Prod - `docker build -t anotherquirkydev_web .`
+## Install
 
-Running the instance
-`docker-compose up`
+Make sure that you have the Gatsby CLI program installed:
+```sh
+npm install --global gatsby-cli
+```
+
+And run from your CLI:
+```sh
+gatsby new gatsby-example-site
+```
+
+Then you can run it by:
+```sh
+cd gatsby-example-site
+gatsby develop
+```
+
+## Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
