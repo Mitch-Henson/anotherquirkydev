@@ -24,3 +24,9 @@ gatsby develop
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+
+## TODO
+- Install a grid system for responsiveness
+- Find a background image - https://unsplash.com/search/photos/berlin
+- Finish site (refer to https://html5up.net/identity for inspiration)
