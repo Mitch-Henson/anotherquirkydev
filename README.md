@@ -27,6 +27,7 @@ gatsby develop
 
 
 ## TODO
-- Install a grid system for responsiveness
-- Find a background image - https://unsplash.com/search/photos/berlin
+- Add github / other links
+- Finish the styling on the div so that it stands out from the background 
 - Finish site (refer to https://html5up.net/identity for inspiration)
+- Deploy

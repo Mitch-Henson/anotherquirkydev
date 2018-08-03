@@ -5,7 +5,9 @@ import Helmet from 'react-helmet'
 import './index.css'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div style={{
+    height: '100%'
+  }}>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -19,6 +21,11 @@ const Layout = ({ children, data }) => (
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%'
       }}
     >
       {children()}
