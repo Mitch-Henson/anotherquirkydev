@@ -1,0 +1,13 @@
+{
+  "uid": "mitchell",
+  "name": "Mitchell Henson",
+  "image": "/images/mitch.jpg",
+  "url": "http://anotherquirky.dev/",
+  "location": "Berlin, Germany",
+  "bio": "Aussie living in Berlin",
+  "socialUrls": [
+    "https://github.com/Mitch-henson",
+    "https://twitter.com/MrMitchHenson",
+    "mailto:mitchell.b.henson@gmail.com"
+  ]
+}
