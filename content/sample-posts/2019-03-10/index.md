@@ -7,6 +7,7 @@ tags:
     - berlin
     - travel
 author: Mitchell
+cover: '/images/blurry_tram.jpg'
 ---
 
 Tips on what to see and eat in Berlin
