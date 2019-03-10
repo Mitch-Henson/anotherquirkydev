@@ -1,0 +1,13 @@
+{
+  "uid": "mitchell",
+  "name": "Mitchell Henson",
+  "image": "https://api.adorable.io/avatars/150/test.png",
+  "url": "http://anotherquirky.dev/",
+  "location": "Berlin, Germany",
+  "bio": "Aussie living in Berlin",
+  "socialUrls": [
+    "https://github.com/Mitch-henson",
+    "https://twitter.com/MrMitchHenson",
+    "mailto:mitchell.b.henson@gmail.com"
+  ]
+}
