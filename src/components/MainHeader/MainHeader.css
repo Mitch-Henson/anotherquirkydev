@@ -11,8 +11,14 @@
     overflow: hidden;
 }
 
+.main-header .inner .main-header::after {
+    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("/images/berliner-dome.jpg"));
+}
+
 .main-header .inner {
     width: 80%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.5em;
 }
 
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
