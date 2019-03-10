@@ -6,7 +6,7 @@ slug: "tips-for-berlin"
 tags:
     - berlin
     - travel
-author: Mitchell
+author: mitchell
 cover: '/images/blurry_tram.jpg'
 ---
 
